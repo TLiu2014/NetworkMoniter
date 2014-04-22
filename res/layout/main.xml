@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <View
+        android:id="@+id/v1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        android:layout_below="@+id/tvTitle" />
+   <ScrollView
+        android:id="@+id/svMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/v1">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    <TextView
+        android:id="@+id/tvNetMode"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="3dp"           
+        android:layout_marginLeft="3dp"
+        android:text="@string/modeTitle"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TextView
+        android:id="@+id/tvIsWifi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvNetMode"
+        android:layout_marginTop="3dp"   
+        android:layout_marginLeft="3dp"
+        android:text="@string/isWifi"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TextView
+        android:id="@+id/tvDataTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvIsWifi"
+        android:layout_marginTop="3dp"   
+        android:layout_marginLeft="3dp"
+        android:text="@string/dataTitle"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+        android:id="@+id/tvData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDataTitle"
+        android:layout_marginTop="0dp"   
+        android:layout_marginLeft="3dp"
+        android:text="" 
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <View
+        android:id="@+id/v2"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        android:layout_below="@+id/tvData" 
+        android:layout_marginTop="3dp"/>
+   <TextView
+	    android:id="@+id/tvScanResultTitle"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+        android:layout_below="@+id/v2"
+	    android:layout_marginTop="3dp"   
+        android:layout_marginLeft="3dp"
+	    android:text="@string/ListScanResult"    
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+   <TextView
+        android:id="@+id/tvScanResult"
+	    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvScanResultTitle"
+	    android:layout_marginTop="3dp"   
+        android:layout_marginLeft="3dp"
+        android:text="" />  
+    <View
+        android:id="@+id/v3"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        android:layout_below="@+id/tvScanResult"/>
+        <TextView
+	    android:id="@+id/tvWifiConfigTitle"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+        android:layout_below="@+id/v3"
+	    android:layout_marginTop="3dp"    
+        android:layout_marginLeft="3dp"
+	    android:text="@string/ListWifiConfiguration"
+	    android:textAppearance="?android:attr/textAppearanceMedium"/>
+        <TextView
+        android:id="@+id/tvWifiConfig"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvWifiConfigTitle"
+	    android:layout_marginTop="3dp"   
+        android:layout_marginLeft="3dp"
+        android:text=""  />  
+    <View
+        android:id="@+id/v4"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        android:layout_below="@+id/tvWifiConfig"        
+	    android:layout_marginTop="3dp" />
+    <TextView
+        android:id="@+id/tvUpdate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/v4"
+        android:layout_marginTop="10dp"   
+        android:layout_marginLeft="3dp"
+        android:text="@string/update"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+        <View
+        android:id="@+id/v5"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tvUpdate" />
+        <TextView
+        android:id="@+id/tvExit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/v5"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/exit"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+        <View
+        android:id="@+id/v6"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tvExit" />
+</RelativeLayout>
+</ScrollView>
+</RelativeLayout>

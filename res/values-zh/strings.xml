@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">网络监控</string>
+    <string name="isWifi">当前Wifi是否开启（刷新后显示）</string>
+    <string name="WifiEnable">Wifi处于开启状态</string>
+    <string name="WifiDisable">Wifi处于关闭状态</string>
+    <string name="preWifiEnable">（请先开启WiFi）</string>
+    <string name="update">立即刷新</string>
+    <string name="scanning">正在扫描WiFi热点，即将显示全部扫描结果信息……</string>
+    <string name="ListScanResult">扫描到的Wifi热点：</string>
+    <string name="ListWifiConfiguration">已配置的Wifi热点：</string>
+    <string name="dataTitle">数据传输总流量：</string>
+    <string name="data_ul">上传总流量：</string>
+    <string name="data_dl">下载总流量：</string>
+    <string name="modeTitle">当前使用的数据连接方式：</string>
+    <string name="exit">退出</string>
+    <string name="number">序号：</string>
+    <string name="waitWifi">等待开启WiFi</string>
+
+</resources>

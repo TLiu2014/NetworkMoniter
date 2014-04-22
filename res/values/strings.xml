@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Network Monitor</string>
+    <string name="isWifi">Is Wi-Fi on?(display after update)</string>
+    <string name="WifiEnable">Wi-Fi is on.</string>
+    <string name="WifiDisable">Wi-Fi is off.</string>
+    <string name="preWifiEnable">(Please turn Wi-Fi on first.)</string>
+    <string name="update">Update immediately.</string>
+    <string name="scanning">Scanning&#8230;</string>
+    <string name="ListScanResult">Available Wi-Fi networks:</string>
+    <string name="ListWifiConfiguration">Remembered Wi-Fi networks:</string>
+    <string name="dataTitle">Total data usage:</string>
+    <string name="data_ul">Upload data usage:</string>
+    <string name="data_dl">Download data usage:</string>
+    <string name="modeTitle">Current connection mode: </string>
+    <string name="exit">Exit</string>
+    <string name="number">No. </string>
+    <string name="waitWifi">Turning Wi-Fi on&#8230;</string>
+
+</resources>
