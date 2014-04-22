@@ -12,4 +12,4 @@ The network management module of an energy management system for Android phones
 
 ## License
 
-Copyright (c) 2014 Tianwei Liu. See the [LICENSE file](https://github.com/TLiu2014/NetworkMoniter/LICENSE) for license rights and limitations (MIT).
+Copyright (c) 2014 Tianwei Liu. See the [LICENSE](https://github.com/TLiu2014/NetworkMoniter/blob/master/LICENSE) file for license rights and limitations (MIT).
